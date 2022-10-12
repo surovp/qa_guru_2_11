@@ -2,7 +2,7 @@ from selene import have
 from selene.support.shared import browser
 
 
-def given_open_page():
+def open_page():
     browser.open_url("https://github.com/")
 
 
